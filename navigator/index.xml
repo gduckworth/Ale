@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Transformation Centre Information on DTC</title>
+    <link>https://github.dxc.com/pages/DigitalTransformationCentre/navigator/</link>
+    <description>Recent content in Digital Transformation Centre Information on DTC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jan 2019 15:45:06 +0600</lastBuildDate>
+    
+	<atom:link href="https://github.dxc.com/pages/DigitalTransformationCentre/navigator/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

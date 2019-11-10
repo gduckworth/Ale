@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DTC</title>
+    <link>https://github.dxc.com/pages/DigitalTransformationCentre/</link>
+    <description>Recent content on DTC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://github.dxc.com/pages/DigitalTransformationCentre/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating A Digital Identify and The Digital Skills Gap</title>
+      <link>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-11-04-digitalid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-11-04-digitalid/</guid>
+      <description>Creating A Digital Identity And The Digital Skills Gap Everyone talks about the digital skills gap. For me it’s a real problem that my team face every day. Trying to grow the workforce in a digital business when some people do not know who you are and what you do adds an additional layer of difficulty. Competing with other companies to retain our current people and attract new talent is a very frustrating environment for a resourcing lead.</description>
+    </item>
+    
+    <item>
+      <title>Everyone Needs Their Lightbulb Moment</title>
+      <link>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-09-13-lightbulb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-09-13-lightbulb/</guid>
+      <description>I’ve lost count the number of times I’ve been asked by sceptical clients and colleagues about using agile and dev ops methods in software delivery. This is usually followed by…
+“We can’t do that because …”
+“That won’t work for us because …”
+“Our teams don’t want to change because …”
+“Agile doesn’t really work”
+… I think you can see the pattern.
+In response, I usually find it’s best to recount our story of how we also were very sceptical of change and happy with our waterfall status quo before we started using agile and dev ops methods, but making the change and giving it a go was when the real fun started.</description>
+    </item>
+    
+    <item>
+      <title>Experimenting with video storytelling</title>
+      <link>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-07-17-experimenting-with-video-storytelling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-07-17-experimenting-with-video-storytelling/</guid>
+      <description>Introduction By now you may have seen some videos that the Digital Transformation Centre has been creating, if not you can see and subscribe to our channel here. This has been a very collaborative approach between several members of the centre operations team (including Ann Koehler, Nick De La Bedoyere &amp;amp; Andrew Broekhuizen), sometimes members of the delivery team in the centre (including Bertie Hazell &amp;amp; Rob Patton) and sometimes with our internal pursuit teams (including RBSG Pursuit Team).</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Docs as Code</title>
+      <link>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-04-05-getting-started-with-docs-as-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-04-05-getting-started-with-docs-as-code/</guid>
+      <description>Getting Started with Docs as Code After our buildathon sessions with GitHub on documentation as code, I started my own journey to familiarize myself with docs as code concepts and practices. In doing so I found some helpful links and video&amp;rsquo;s I wanted to share in hopes it may help others become more familiar with documentation as code and more comfortable contributing.
+As we continue to shape and structure our content for Platform DXC it&amp;rsquo;s crucial that everyone see themselves as a technical writer and are comfortable with writing in this style where the focus will be on generating the content.</description>
+    </item>
+    
+    <item>
+      <title>Guernsey STEMette Event</title>
+      <link>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-11-23-guernseystemetteevent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-11-23-guernseystemetteevent/</guid>
+      <description>An overview of the recent STEMette event and how to get involved At the start of the month, Bianca, Alan, Miranda and I had the pleasure of being invited to the wonderful Island of Guernsey, by the State of Guernsey bid team, in order to attend a STEMette event. This event, which was sponsored by DXC and ran in partnership with the Digital Greenhouse on the Island (https://www.digitalgreenhouse.gg/about/overview/), was aimed at raising aspiration amongst young women in Guernsey in regards to working in the Science, Technology, Engineering and Math Industries and we were invited to this as we’ll be running a very similar activity in the Newcastle Digital Transformation Centre early in 2019.</description>
+    </item>
+    
+    <item>
+      <title>How to Blog</title>
+      <link>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-05-25-how-to-blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-05-25-how-to-blog/</guid>
+      <description>How to Blog on the Newcastle Digital Transformation Centre Docs Page All the team are invited to contribute to the Centres docs page blog. This content can highlight the more nuanced details around our services&amp;rsquo; methods, tools, decisions, timelines, objectives, etc. of our services that the higher level &amp;ldquo;marketing&amp;rdquo; type content does not address. It can also share higher level Platform DXC specific insight relevant to our project, team, or culture.</description>
+    </item>
+    
+    <item>
+      <title>How to create a Team Manifesto</title>
+      <link>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-07-06-how-to-create-a-team-manifesto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-07-06-how-to-create-a-team-manifesto/</guid>
+      <description>So this week I had my first attempt at running a workshop with a team to help them create their team manifesto here in the Newcastle Digital Transformation Centre, as it happens this is also my first blog but I probably don&amp;rsquo;t need to tell you that as it will be obvious throughout.
+What is a Team Manifesto? A team manifesto is a social contract created and signed by a team in which they agree the principles and values of each individual and the team themselves.</description>
+    </item>
+    
+    <item>
+      <title>Pragmatic Agile</title>
+      <link>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-11-04-pragmaticagile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-11-04-pragmaticagile/</guid>
+      <description>Pragmatic Agile I was recently talking to an Agile Coach who was visiting the Digital Transformation Centre, about how we apply agile techniques to our projects. I mentioned to him how we were far from being scrum purists, but instead we were quite pragmatic about what techniques and approaches we applied to the different types of deliveries using a common sense approach including …
+ Scrum Kanban Mega Kanban Uber Scrum Safe Nexus Scrum of scrums  When I mentioned our Pragmatic approach, he said ”you do realise that Pragmatic Agile is an actual approach”.</description>
+    </item>
+    
+    <item>
+      <title>Taking The Plunge - Moving From Waterfall To Agile</title>
+      <link>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-11-04-waterfallagile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-11-04-waterfallagile/</guid>
+      <description>Taking The Plunge - Moving From Waterfall To Agile Many people have the idea that moving to agile methodologies from traditional waterfall will bring chaos where decisions change by the minute and no one knows what is going on. Infact, it’s quite the opposite – if done correctly.
+We have more useful governance using Agile approaches than we had wasteful using Waterfall.
+Based on our experience, successful adoption of Agile can be achieved and here are things to consider.</description>
+    </item>
+    
+    <item>
+      <title>The Essence Of A Digital Culture Part 1</title>
+      <link>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-09-25-essence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-09-25-essence/</guid>
+      <description>We were incredibly lucky to host a Buildathon earlier this year in our Digital Transformation Centre. One of our visitors (a global senior exec in the company) described our Centre as walking into a ‘Digital Disneyland’.
+I took this as a great compliment !
+We have been working over the last few years to really understand what it means to have a digital culture and I think we’re very close to having nailed it.</description>
+    </item>
+    
+    <item>
+      <title>The Essence Of A Digital Culture Part 2</title>
+      <link>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-10-15-essence2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-10-15-essence2/</guid>
+      <description>In this second part of the blog, I want to explore how we have created a high performing, multi skilled team where training, collaborative working, innovation and mentoring have become real enablers for our people and for our projects.
+NO MORE SILOS It is a standard concept in Agile teams to have T shaped resources that have a deep specialism as well as more breadth to a person’s skills e.</description>
+    </item>
+    
+    <item>
+      <title>What Is Digital?</title>
+      <link>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-11-04-whatisdigital/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-11-04-whatisdigital/</guid>
+      <description>What Is Digital? If I had been given a pound for every time I’ve been asked ”what is digital?”, I probably wouldn’t be able to afford the latest iPhone, but I might be able to afford a decent case.
+I’m lucky to work in a digital team, but where does that leave my non-digital colleagues? Someone made a good point recently that just because they are not the digital team doesn’t mean they are analogue!</description>
+    </item>
+    
+    <item>
+      <title>Why GitHub?</title>
+      <link>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-05-02-whygithub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.dxc.com/pages/DigitalTransformationCentre/blog/2018-05-02-whygithub/</guid>
+      <description>{% include toc %} This article is intended for users that are not sure if and how GitHub could be useful to them with their day to day work. To many GitHub is seen only as a tool to version control source code, hopefully we can convince everyone that it is more than that and can provide value to all users, not just developers. To do this we shall compare and contract GitHub with other common office productivity tools, that most people would be familiar with.</description>
+    </item>
+    
+  </channel>
+</rss>

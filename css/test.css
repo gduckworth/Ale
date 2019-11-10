@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+/* Operating Model */
+
+
+@font-face {
+font-family: 'GT Walsheim Pro';
+src: url('../fonts/GT-Walsheim-Pro-Bold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'GT Walsheim Pro Reg';
+src: url('../fonts/GT-Walsheim-Pro-Regular.woff') format('woff');
+}
+		
+body {
+    font-family: 'GT Walsheim Pro Reg', sans-serif;
+    background: #fafafa;
+}
+
+
+p {
+    font-family: 'GT Walsheim Pro Reg', sans-serif;
+    font-size: 16px;
+    line-height: 20px	;
+    color: #000;
+}
+
+
+/* ---------------------------------------------------
+    Header
+----------------------------------------------------- */
+
+.header-background{
+    background: #666666;
+    height: 150px;
+    margin-top: 0;
+}
+
+.nav-style{
+    padding: 40px 0 20px 40px;
+    margin: 5px 40px 10px -10px;
+    font-size: 16px;
+}
+
+#navbarSupportedContent a {
+    font-family: 'GT Walsheim Pro Reg';
+    font-size: 16.1542px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#navbarSupportedContent a:hover {
+    color: #FFED00 !important;
+}
+.main-title{		
+    position:relative; 
+    margin: 0px auto;
+    top: 40px;
+    text-align: center;
+	font-size: 55px;
+    line-height: normal;
+    margin: 10px;
+    color: #000000;
+	font-family: GT Walsheim Pro;
+}	
+.sub-title{
+    height: 30px;
+    position:relative;
+    top: 40px;
+    font-size: 12px;
+    margin: 20px 0 0 5px;
+    color: #000000;
+	text-align: center;
+	line-height: 10px;
+    font-weight: 700;
+    letter-spacing: 3.3px;
+    text-transform: uppercase;
+}	
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    position: relative;
+    top: 30px;
+    display: flex;
+}
+
+.sidebar {
+    margin: 30px 0px 104px 110px ;
+    padding-right: 77px;
+    height: 70vh;
+    z-index: 999;
+    color:#000000;
+    transition: all 0.3s;
+	border-right: solid 1px #ccc;
+}
+
+.sidebar.active {
+    margin-left: -250px;
+}
+
+
+.sidebar ul.components {
+    list-style-type:  none;
+}
+
+
+.sidebar ul li a {
+    width: 175px;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+	list-style-type:  none;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    font-weight: bold;
+}
+
+.sidebar ul li.active>a,
+
+ul ul a {
+    font-size: 16px;
+    font-weight: bold;
+}
+.sidebar ul li.active>div{
+    display: inline;
+    font-weight: bold;
+}
+
+.sidebar ul li.active>div::before {
+  content: "";
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  margin-left: -50px;
+  margin-top: 5px;
+  background: url("../images/operatingmodel/Polygon.svg") no-repeat 0px 0px;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+.content {
+    position: relative;
+    width: 100%;
+    margin: 44px 29px;
+    transition: all 0.3s;
+	font-size: 16px;
+    color:#000;
+    min-height: 90vh;
+}
+
+.content.active {
+    width: 90%;
+}
+
+.subcontent{
+    font-size: 16px; 
+    font-weight:normal
+}
+
+.table
+{
+   margin-top: 10px
+}
+.table-header
+{
+    display: table-row;
+    font-weight: bold;
+}
+.row
+{
+    display: table-row;
+    
+}
+    
+}
+.row:hover .cell.download{
+    background: url("../images/operatingmodel/download_hover.svg") no-repeat 40px center; 
+}
+.cell
+{
+    display: table-cell;
+    border-top: 1px solid #D9D9D9;
+    border-width: thin;
+    padding:10px;
+    padding-right:40px;
+	max-width:600px;
+}
+.cell img{
+    padding-left:25%;
+}
+
+.cell.download{
+    background: url("../images/operatingmodel/download.svg") no-repeat 40px center; 
+}
+
+.cell.download a{
+    position: absolute;
+    width:65px;
+    height:65px;
+}
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    .sidebar {
+        margin-left: -250px;
+    }
+    .sidebar.active {
+        margin-left: 0;
+    }
+    .content {
+        width: 100%;
+    }
+    .content.active {
+        width: calc(100% - 250px);
+    }
+    .sidebarCollapse span {
+        display: none;
+    }
+}		
+/* ---------------------------------------------------
+    Footer
+----------------------------------------------------- */
+.footer{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background: #666666;
+    bottom: 0;
+}
+
+.footer-logo{
+    position: relative;
+    width: 200px;
+    height:36px;
+    left: 40px;
+    top:35px;
+background: url("../images/operatingmodel/footer_logo.png") no-repeat 0px 0px; 
+}

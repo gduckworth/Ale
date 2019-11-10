@@ -1,0 +1,333 @@
+:root{
+
+    --MAIN-TEXT-color:#000000; /* Color of text by default */
+    --MAIN-TITLES-TEXT-color: #e2e2e2; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-LINK-color:#00c9ff; /* Color of links */
+    --MAIN-LINK-HOVER-color:#167ad0; /* Color of hovered links */
+    --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */
+
+    --MENU-HEADER-BG-color:#000000; /* Background color of menu header */
+    --MENU-HEADER-BORDER-color:#00c9ff; /*Color of menu header border */
+
+    --MENU-SEARCH-BG-color:#666666; /* Search field background color (by default borders + icons) */
+    --MENU-SEARCH-BOX-color: #666666; /* Override search field border color */
+    --MENU-SEARCH-BOX-ICONS-color: #a1d2fd; /* Override search field icons color */
+
+    --MENU-SECTIONS-ACTIVE-BG-color:#000000; /* Background color of the active section and its childs */
+    --MENU-SECTIONS-BG-color:#000000; /* Background color of other sections */
+    --MENU-SECTIONS-LINK-color: #ffffff; /* Color of links in menu */
+    --MENU-SECTIONS-LINK-HOVER-color: #888888;  /* Color of links in menu, when hovered */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
+
+    --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
+    --MENU-SECTION-HR-color: #20272b; /* Color of <hr> separator in menu */
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('../fonts/GT-Walsheim-Pro-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro Reg';
+  src: url('../fonts/GT-Walsheim-Pro-Regular.woff') format('woff');
+}
+
+body {
+    font-family: "GT Walsheim Pro","Lato", "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "GT Walsheim Pro","Lato", "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+p {
+   font-family: "GT Walsheim Pro Reg","Lato", "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+#navlogo {
+    width: 180px;
+    height: auto;
+}
+
+.navbar-brand svg {
+  position: absolute;
+  width: 143px;
+  height: 140px;
+  left: 30.06px;
+  top: 26.55px;
+}
+
+.nav-item{
+  padding: 0 15px 0 0 !important;
+    border-right: 2px solid black;
+    margin: 20px 0 20px 15px !important;
+
+}
+.navigation .navbar-nav > li > a {
+  font-family: 'GT Walsheim Pro Reg';
+  font-size: 16.1542px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.nav-item:last-child{
+  border-right: none;
+}
+
+.navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
+    background: none;
+    color: #FFED00 !important;
+}
+
+.btn-main, .btn-main-sm {
+    background-color: #000000;
+    background-image: linear-gradient(200deg,#aaaaaa,#222222);
+    color: #fff;
+    border: none;
+}
+
+.gradient, .title .border, .services .service-block i, .service-2 .service-item i {
+    background-image: linear-gradient(200deg, #aaaaaa, #222222);
+}
+
+.hero-area {
+  height: 710px;
+}
+
+.hero-area .block p {
+  font-family: 'GT Walsheim Pro Reg' !important;
+}
+/*=================================================================
+  Arch Navigator section
+==================================================================*/
+
+#archnav {
+  background: #F7F7F7;
+  height: 724px;
+  padding-top: 30px;
+}
+
+.newHeader {
+  font-family: 'GT Walsheim Pro';
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+}
+
+.new-header h2 {
+  font-size: 60px;
+  line-height: normal;
+  margin: 10px;
+
+  color: #000000;
+}
+
+.new-header h4 {
+  font-size: 10px;
+  margin: 20px 0 0 5px;
+
+  color: #000000;
+}
+
+.new-header > .col > .title {
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.archnav-items-wrapper {
+  text-align: center;
+  align-items: center !important;
+  padding: 0 7% 0 7%;
+  margin-top: 2%;
+}
+.archnav-items-wrapper .col-2 {
+  max-width: 20%;
+  margin: 10px;
+  flex: 0 0 20% !important;
+}
+
+.archnav-block {
+  background: none !important;
+  mix-blend-mode: multiply;
+  box-shadow: 0px 10.15px 20.3px rgba(0, 0, 0, 0.45);;
+  border-radius: 13.5333px;
+  position: relative;
+  transition: .3s all;
+  overflow: hidden;
+  text-align: center;
+}
+
+.archnav-block:before {
+  content: '';
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #666666;
+  transition: .3s all;
+}
+
+.archnav-block:hover:before {
+  background: #000000;
+  opacity: 0.65;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.archnav-block:active {
+  border: 3px solid #FFED00;
+  transition: 0s border;
+}
+
+.archnav-block:hover .caption h4 {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.archnav-block:hover ul {
+  transition: .3s all;
+  display: block;
+}
+
+.archnav-block ul {
+  position: absolute;
+  width: 227px;
+  height: 117px;
+  left: 14px;
+  top: 47px;
+
+  font-family: 'GT Walsheim Pro Reg';
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #FFFFFF;
+  list-style: none;
+  display: none;
+}
+
+.archnav-block ul > li::before {
+  content: "• "; 
+  color: white;
+  margin-bottom: 0;
+}
+
+.archnav-block:hover .caption {
+  opacity: 1;
+}
+
+.archnav-block:hover .caption .search-icon {
+  opacity: 1;
+}
+
+.archnav-block .caption {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  z-index: 9;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.archnav-block .caption h4 {
+  text-align: left;
+  position: absolute;
+  /* width: 90%; */
+  height: 24px;
+  left: 13.53px;
+  top: 13.53px;
+
+  font-family: 'GT Walsheim Pro';
+  font-size: 20.3px;
+  line-height: normal;
+
+  color: #FFFFFF;
+}
+
+.archnav-block .caption h4 a {
+  color: #FFFFFF;
+}
+
+.archnav-block img {
+  min-width: 100% !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.team-member .member-content ul li a i {
+    color: #00c9ff;
+    background: linear-gradient(100deg, #00c9ff, #00e9ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.video-player .play-icon i {
+    color: #00c9ff;
+}
+
+.testimonial {
+    background: #00c9ff;
+}
+
+.social-icon li a {
+    color: #009cff;
+}
+
+#preloader {
+  background: #00c9ff;
+  height: 100%;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-2 h2:before {
+    position: absolute;
+    left: -15%;
+    top: 18px;
+    content: '';
+    display: inline-block;
+    width: 12%;
+    height: 3px;
+    background-color: #666666;
+    background-image: linear-gradient(100deg, #00c9ff, #00e9ff);
+}
+
+footer {
+  background-color: #666666;
+  height: 103px;
+  margin-bottom: -5px;
+}
+
+footer svg {
+  height: 75px;
+  position: absolute;
+  margin: 17px 23px;
+}
+
+.single-page-header .breadcrumb li a {
+    color: #00c9ff;
+}
+/********************************************/
+
+
